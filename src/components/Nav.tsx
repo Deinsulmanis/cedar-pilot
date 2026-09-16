@@ -31,13 +31,6 @@ export default function Nav() {
         </nav>
         <div className="nav__actions">
           <span className="nav__doc">Proposal</span>
-          <a
-            className="print-btn"
-            href="/ScaleLab-South-West-Proposal.pdf"
-            download="ScaleLab-South-West-Proposal.pdf"
-          >
-            Download PDF
-          </a>
           <button
             type="button"
             className="print-btn"
