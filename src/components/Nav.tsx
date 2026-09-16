@@ -31,13 +31,20 @@ export default function Nav() {
         </nav>
         <div className="nav__actions">
           <span className="nav__doc">Proposal</span>
+          <a
+            className="print-btn"
+            href="/ScaleLab-South-West-Proposal.pdf"
+            download="ScaleLab-South-West-Proposal.pdf"
+          >
+            Download PDF
+          </a>
           <button
             type="button"
             className="print-btn"
             title="In the print dialog, enable Background graphics to keep the dark branding"
             onClick={() => window.print()}
           >
-            Print / Save as PDF
+            Print
           </button>
         </div>
       </div>
