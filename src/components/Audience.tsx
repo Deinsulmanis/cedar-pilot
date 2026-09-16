@@ -33,7 +33,7 @@ export default function Audience() {
       }
     >
       <div className="audience">
-        <div className="audience__primary keep-together">
+        <div className="audience__primary">
           <p className="eyebrow">Primary segment</p>
           <h3>Strata &amp; Property Management Companies</h3>
           <p>

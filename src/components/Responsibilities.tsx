@@ -36,7 +36,7 @@ export default function Responsibilities() {
       title="We Handle the Acquisition System"
     >
       <div className="split">
-        <article className="split__col split__col--lab keep-together">
+        <article className="split__col split__col--lab">
           <p className="eyebrow">ScaleLab AI handles</p>
           <ul className="check-list">
             {scalelab.map((item) => (
@@ -44,7 +44,7 @@ export default function Responsibilities() {
             ))}
           </ul>
         </article>
-        <article className="split__col split__col--client keep-together">
+        <article className="split__col split__col--client">
           <p className="eyebrow">South-West handles</p>
           <ul className="check-list check-list--client">
             {southwest.map((item) => (

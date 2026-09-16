@@ -25,15 +25,11 @@ export default function Funnel() {
         </p>
       }
     >
-      <div className="funnel keep-together">
+        <div className="funnel">
         <p className="funnel__owner funnel__owner--lab">ScaleLab AI responsibility</p>
         <ol className="funnel__list">
-          {scalelabSteps.map((step, index) => (
-            <li
-              key={step}
-              className="funnel__step"
-              style={{ ['--w' as string]: `${100 - index * 7}%` }}
-            >
+          {scalelabSteps.map((step) => (
+            <li key={step} className="funnel__step">
               <span>{step}</span>
             </li>
           ))}
@@ -46,7 +42,7 @@ export default function Funnel() {
         <p className="funnel__owner funnel__owner--client">
           South-West responsibility
         </p>
-        <div className="funnel__step funnel__step--client" style={{ ['--w' as string]: '58%' }}>
+        <div className="funnel__step funnel__step--client">
           <span>South-West Sales Process</span>
         </div>
       </div>

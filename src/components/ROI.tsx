@@ -76,6 +76,7 @@ export default function ROI() {
             max={75000}
             step={500}
             value={jobValue}
+            inputMode="numeric"
             onChange={(event) => {
               const next = Number(event.target.value)
               setJobValue(Number.isFinite(next) ? next : 0)

@@ -45,16 +45,14 @@ export default function System() {
       className="section--system"
     >
       <ol className="system-track">
-        {steps.map((step, index) => (
+        {steps.map((step) => (
           <li key={step.n} className="system-step keep-together">
             <div className="system-step__rail">
               <span className="system-step__n">{step.n}</span>
-              {index < steps.length - 1 ? (
-                <span className="system-step__line" aria-hidden="true" />
-              ) : null}
+              <span className="system-step__line" aria-hidden="true" />
             </div>
             <div className="system-step__body">
-              <p className="system-step__kicker">Step {step.n.replace(/^0/, '')}</p>
+              <p className="system-step__kicker">Step {Number(step.n)}</p>
               <h3>{step.title}</h3>
               <p>{step.body}</p>
             </div>

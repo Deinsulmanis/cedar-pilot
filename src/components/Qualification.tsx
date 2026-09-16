@@ -35,7 +35,7 @@ export default function Qualification() {
       }
     >
       <div className="qualify">
-        <article className="qualify__col keep-together">
+        <article className="qualify__col">
           <p className="eyebrow">Counts when all are true</p>
           <ul className="check-list">
             {qualifies.map((item) => (
@@ -43,7 +43,7 @@ export default function Qualification() {
             ))}
           </ul>
         </article>
-        <article className="qualify__col qualify__col--no keep-together">
+        <article className="qualify__col qualify__col--no">
           <p className="eyebrow">Does not count</p>
           <ul className="plain-list plain-list--muted">
             {doesNot.map((item) => (
