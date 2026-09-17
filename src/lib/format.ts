@@ -8,5 +8,5 @@ export function formatMultiple(value: number) {
   return `${value.toFixed(2)}×`
 }
 
-export const TECH_FEE = 450
+export const TECH_FEE = 550
 export const PER_ESTIMATE = 150

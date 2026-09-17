@@ -3,7 +3,7 @@ import Section from './Section'
 const points = [
   {
     title: 'Low fixed cost',
-    body: 'The $450 technology fee covers the systems required to launch and operate the campaign.',
+    body: 'The $550 technology fee covers the systems required to launch and operate the campaign.',
   },
   {
     title: 'Performance component',
